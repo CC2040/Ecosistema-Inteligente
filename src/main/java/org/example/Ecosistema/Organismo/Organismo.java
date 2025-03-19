@@ -48,7 +48,7 @@ public abstract class Organismo {
         this.edad = edad;
     }
 
-    public boolean isEstadoReproductivo() {
+    public boolean EstadoReproductivo() {
         return estadoReproductivo;
     }
 

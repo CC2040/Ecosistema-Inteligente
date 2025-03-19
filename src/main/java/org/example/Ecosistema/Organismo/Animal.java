@@ -6,6 +6,13 @@ public class Animal extends Organismo {
         super(posicionX, posicionY, salud, edad, estadoReproductivo);
         this.nombre = nombre;
     }
+    //Setters y Getters
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
     //Metodos propios Animal
     public void moverse(int x, int y) {
         setPosicionX(x);
@@ -16,7 +23,7 @@ public class Animal extends Organismo {
     //Metodos generales Organismo
     @Override
     public void reproducirse() {
-        System.out.println("El"+nombre+"se ha reproducido");
+        System.out.println("El "+nombre+" se ha reproducido");
         Animal hijo = new Animal(posicionX, posicionY, salud, 0, false, nombre);
     }
     @Override

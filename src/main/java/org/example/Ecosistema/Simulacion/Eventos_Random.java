@@ -37,7 +37,7 @@ public class Eventos_Random {
                 break;
             case 2:
                 //Modificar estado
-                System.out.println("El animal ha comido una planta venenosa");
+                System.out.println("El "+animal.getNombre()+" ha comido una planta venenosa");
                 animal.setSalud(animal.getSalud() - 20);
             default:
                 // No hacer nada

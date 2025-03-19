@@ -9,6 +9,21 @@ public class Planta extends Organismo {
         this.esVenenosa = esVenenosa;
     }
 
+    //Setters y Getters
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public boolean getEsVenenosa() {
+        return esVenenosa;
+    }
+    public void setEsVenenosa(boolean esVenenosa) {
+        this.esVenenosa = esVenenosa;
+    }
+
     //Metodos propios Planta
     public void crecer() {
         System.out.println("La planta ha crecido");
