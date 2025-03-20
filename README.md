@@ -7,19 +7,19 @@
 ## Módulos del Sistema:
 
 ### Modelado de Entidades: 
-**1)Organismos:** Crear clases para diferentes tipos de plantas y animales. Cada clase debe incluir atributos como posición, salud, edad y estado reproductivo. Ambiente: Diseñar una clase que represente el entorno, incluyendo factores como el clima, el terreno y los recursos disponibles. 
+**1)Organismos:** Crear clases para diferentes tipos de plantas y animales. Cada clase debe incluir atributos como posición, salud, edad y estado reproductivo. Ambiente: Diseñar una clase que represente el entorno, incluyendo factores como el clima, el terreno y los recursos disponibles.  
 **2)Interacciones:** Desarrollar métodos para simular interacciones naturales como la predación, la competencia por recursos y la polinización. 
-## Simulador de Dinámicas Poblacionales:
-**3)Crecimiento y Reproducción:** Implementar algoritmos que modelen el crecimiento de la población y la reproducción de las especies. 
-**4)Eventos Aleatorios:** Integrar eventos aleatorios que puedan afectar a las poblaciones, como desastres naturales, enfermedades y cambios climáticos. 
-**5)Resultados de la Simulación:** Crear funciones para calcular y presentar estadísticas sobre la salud del ecosistema y las tendencias poblacionales. 
-### Gestión de Usuarios y Simulaciones: 
-**6)Interfaz de Usuario:** Desarrollar una interfaz de usuario amigable que permita a los investigadores configurar y controlar las simulaciones. 
-**7)Autenticación:** Implementar un sistema de autenticación para asegurar que solo usuarios autorizados puedan acceder al sistema. 
-**8)Registro de Actividades:** Crear un sistema de registro que almacene los resultados y configuraciones de las simulaciones anteriores. 
-**9)Análisis Avanzado:** Resolución de Problemas: Desarrollar herramientas avanzadas para resolver problemas específicos, como la búsqueda de equilibrios ecológicos o la evaluación de estrategias de conservación. 
-**10)Visualización de Datos:** Implementar métodos para visualizar los datos de la simulación de manera que los investigadores puedan interpretarlos fácilmente. 
-**11)Integración de Nuevas Funciones:** Permitir que los investigadores introduzcan sus propios modelos y funciones en el simulador para adaptarlo a sus necesidades específicas. 
+### Simulador de Dinámicas Poblacionales:  
+**3)Crecimiento y Reproducción:** Implementar algoritmos que modelen el crecimiento de la población y la reproducción de las especies.  
+**4)Eventos Aleatorios:** Integrar eventos aleatorios que puedan afectar a las poblaciones, como desastres naturales, enfermedades y cambios climáticos.  
+**5)Resultados de la Simulación:** Crear funciones para calcular y presentar estadísticas sobre la salud del ecosistema y las tendencias poblacionales.  
+### Gestión de Usuarios y Simulaciones:  
+**6)Interfaz de Usuario:** Desarrollar una interfaz de usuario amigable que permita a los investigadores configurar y controlar las simulaciones.  
+**7)Autenticación:** Implementar un sistema de autenticación para asegurar que solo usuarios autorizados puedan acceder al sistema.  
+**8)Registro de Actividades:** Crear un sistema de registro que almacene los resultados y configuraciones de las simulaciones anteriores.  
+**9)Análisis Avanzado:** Resolución de Problemas: Desarrollar herramientas avanzadas para resolver problemas específicos, como la búsqueda de equilibrios ecológicos o la evaluación de estrategias de conservación.  
+**10)Visualización de Datos:** Implementar métodos para visualizar los datos de la simulación de manera que los investigadores puedan interpretarlos fácilmente.  
+**11)Integración de Nuevas Funciones:** Permitir que los investigadores introduzcan sus propios modelos y funciones en el simulador para adaptarlo a sus necesidades específicas.  
 
 ## Entregables:
 
