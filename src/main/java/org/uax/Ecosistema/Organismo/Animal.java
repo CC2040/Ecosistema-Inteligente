@@ -1,4 +1,4 @@
-package org.example.Ecosistema.Organismo;
+package org.uax.Ecosistema.Organismo;
 
 public class Animal extends Organismo {
     private String nombre;
@@ -13,6 +13,7 @@ public class Animal extends Organismo {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     //Metodos propios Animal
     public void moverse(int x, int y) {
         setPosicionX(x);
@@ -20,12 +21,16 @@ public class Animal extends Organismo {
         System.out.println("El animal " + nombre + " se movió a la posición (" + x + ", " + y + ")");
     }
 
-    //Metodos generales Organismo
-    @Override
-    public void reproducirse() {
-        System.out.println("El "+nombre+" se ha reproducido");
-        Animal hijo = new Animal(posicionX, posicionY, salud, 0, false, nombre);
+    public void predacion(Animal predador) {
+        System.out.println("El "+predador.getNombre()+" ha cazado");
+        predador.setSalud(predador.getSalud()+10);
     }
+public void presa(Animal presa) {
+        System.out.println("El "+presa.getNombre()+" ha sido cazado");
+        presa.setSalud(0);
+}
+
+    //Metodos generales Organismo
     @Override
     public void hacerRuido() {
         System.out.println("El"+nombre+"hace ruido");

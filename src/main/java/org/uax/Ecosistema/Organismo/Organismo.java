@@ -1,4 +1,4 @@
-package org.example.Ecosistema.Organismo;
+package org.uax.Ecosistema.Organismo;
 
 public abstract class Organismo {
     protected int posicionX;
@@ -57,7 +57,6 @@ public abstract class Organismo {
     }
 
     //Otros métodos
-    public abstract void reproducirse();
     public abstract void hacerRuido();
     public abstract void enfermar();
 }

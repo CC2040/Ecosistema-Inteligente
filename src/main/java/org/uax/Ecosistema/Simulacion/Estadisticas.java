@@ -1,9 +1,9 @@
-package org.example.Ecosistema.Simulacion;
+package org.uax.Ecosistema.Simulacion;
 import java.util.ArrayList;
 import java.util.List;
-import org.example.Ecosistema.Organismo.Organismo;
-import org.example.Ecosistema.Organismo.Animal;
-import org.example.Ecosistema.Organismo.Planta;
+import org.uax.Ecosistema.Organismo.Organismo;
+import org.uax.Ecosistema.Organismo.Animal;
+import org.uax.Ecosistema.Organismo.Planta;
 
 public class Estadisticas {
     private int numeroAnimales;

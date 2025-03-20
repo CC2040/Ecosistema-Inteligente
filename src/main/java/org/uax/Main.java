@@ -1,11 +1,11 @@
-package org.example;
+package org.uax;
 import java.util.ArrayList;
 import java.util.List;
-import org.example.Ecosistema.Organismo.Animal;
-import org.example.Ecosistema.Organismo.Planta;
-import org.example.Ecosistema.Organismo.Organismo;
-import org.example.Ecosistema.Ambiente.Ambiente;
-import org.example.Ecosistema.Simulacion.Simulador;
+import org.uax.Ecosistema.Organismo.Animal;
+import org.uax.Ecosistema.Organismo.Planta;
+import org.uax.Ecosistema.Organismo.Organismo;
+import org.uax.Ecosistema.Ambiente.Ambiente;
+import org.uax.Ecosistema.Simulacion.Simulador;
 
 
 public class Main {
@@ -14,6 +14,7 @@ public class Main {
         List<Organismo> organismos = new ArrayList<>();
         organismos.add(new Planta(0, 0, 100, 1, false,"Arbol",false));
         organismos.add(new Animal(1, 1, 100, 1, true, "Perro"));
+        organismos.add(new Animal(1, 3, 100, 1, true, "Perro"));
         Ambiente ambiente = new Ambiente("Tropical", "Bosque", 1000, "Día");
 
         // Crear simulador y sistema de autenticación

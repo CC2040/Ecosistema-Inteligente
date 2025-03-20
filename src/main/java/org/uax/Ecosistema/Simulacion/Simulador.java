@@ -1,7 +1,7 @@
-package org.example.Ecosistema.Simulacion;
+package org.uax.Ecosistema.Simulacion;
 import java.util.List;
-import org.example.Ecosistema.Ambiente.Ambiente;
-import org.example.Ecosistema.Organismo.Organismo;
+import org.uax.Ecosistema.Ambiente.Ambiente;
+import org.uax.Ecosistema.Organismo.Organismo;
 
 
 public class Simulador {
@@ -18,6 +18,8 @@ public class Simulador {
         Eventos_Random eventos = new Eventos_Random();
         // Modificar el estado de los organismos
         eventos.modificarEstado(organismo);
+        //Simula reproduccion
+        eventos.reproducionOrganismos(organismo);
         // Mostrar las estadísticas
         Estadisticas estadisticas = new Estadisticas();
         estadisticas.clasificarEstadisticas(organismo);

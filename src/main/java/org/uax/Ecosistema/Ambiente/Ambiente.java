@@ -1,4 +1,4 @@
-package org.example.Ecosistema.Ambiente;
+package org.uax.Ecosistema.Ambiente;
 
 
 public class Ambiente {

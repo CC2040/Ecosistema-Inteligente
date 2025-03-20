@@ -1,4 +1,4 @@
-package org.example.Ecosistema.Organismo;
+package org.uax.Ecosistema.Organismo;
 
 public class Planta extends Organismo {
     String nombre;
@@ -29,11 +29,6 @@ public class Planta extends Organismo {
         System.out.println("La planta ha crecido");
     }
     //Metodos generales Organismo
-    @Override
-    public void reproducirse() {
-        System.out.println("La planta se ha reproducido");
-        Planta hijo = new Planta(posicionX, posicionY, salud, 0, false, nombre,esVenenosa);
-    }
     @Override
     public void hacerRuido() {
         System.out.println("El ruido proviene de la planta");
