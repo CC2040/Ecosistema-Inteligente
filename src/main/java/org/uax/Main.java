@@ -6,6 +6,8 @@ import org.uax.Ecosistema.Organismo.Planta;
 import org.uax.Ecosistema.Organismo.Organismo;
 import org.uax.Ecosistema.Ambiente.Ambiente;
 import org.uax.Ecosistema.Simulacion.Simulador;
+import org.uax.Ecosistema.Usuario.Registro_Actividades;
+import org.uax.Ecosistema.Usuario.Usuario;
 
 
 public class Main {
@@ -20,9 +22,13 @@ public class Main {
         // Crear simulador y sistema de autenticación
         Simulador simulador = new Simulador(organismos, ambiente);
         simulador.simular();
+
+        Usuario usuarioNuevo = new Usuario();
+        usuarioNuevo.registrarUsuario("admin","1234" ,"admin");
+        Registro_Actividades registroActividades = new Registro_Actividades();
+        registroActividades.registrarActividad(usuarioNuevo, simulador);
+        registroActividades.mostrarSimulaciones();
         /*
-        SistemaAutenticacion sistemaAutenticacion = new SistemaAutenticacion();
-        sistemaAutenticacion.registrarUsuario("admin", "admin");
 
         // Crear interfaz de usuario
         InterfazUsuario interfazUsuario = new InterfazUsuario(simulador, sistemaAutenticacion);

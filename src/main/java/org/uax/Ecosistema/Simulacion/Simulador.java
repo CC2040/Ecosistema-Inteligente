@@ -25,4 +25,9 @@ public class Simulador {
         estadisticas.clasificarEstadisticas(organismo);
         estadisticas.mostrarEstadisticas();
     }
+    @Override
+    public String toString() {
+        return "\t"+"Ambiente:"+ "\n"+"\t"+ ambiente.toString() +"\n"+
+                "\t"+"Organismos:"+ "\n" + organismo.toString() ;
+    }
 }

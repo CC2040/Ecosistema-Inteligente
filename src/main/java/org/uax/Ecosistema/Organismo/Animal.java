@@ -40,4 +40,13 @@ public void presa(Animal presa) {
         System.out.println("El"+nombre+"se ha enfermado");
         setSalud(salud-10);
     }
+    @Override
+    public String toString() {
+        return "\n\t\t" + "Nombre='" + nombre +"\n\t\t"+
+                "PosicionX=" + posicionX +"\n\t\t" +
+                "PosicionY=" + posicionY +"\n\t\t"+
+                "Salud=" + salud +"\n\t\t" +
+                "Edad=" + edad +"\n\t\t" +
+                "Estado Reproductivo=" + estadoReproductivo+"\n";
+    }
 }

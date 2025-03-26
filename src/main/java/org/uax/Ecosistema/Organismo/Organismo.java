@@ -59,4 +59,8 @@ public abstract class Organismo {
     //Otros métodos
     public abstract void hacerRuido();
     public abstract void enfermar();
+    @Override
+    public String toString() {
+        return  "PosicionX=" + posicionX + "\n"+ "PosicionY=" + posicionY + "\n"+ "Salud=" + salud + "\n" + "Edad=" + edad + "\n" + "Estado Reproductivo=" + estadoReproductivo + '}';
+    }
 }

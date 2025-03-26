@@ -13,5 +13,9 @@ public class Ambiente {
         this.recursos = recursos;
         this.tiempo = tiempo;
     }
+    @Override
+    public String toString() {
+        return  "\t"+"Clima=" + clima + "\n\t\t" + "Terreno= " + terreno + "\n\t\t"+"Recursos=" + recursos + "\n\t\t"+ "Tiempo=" + tiempo ;
+    }
 
 }

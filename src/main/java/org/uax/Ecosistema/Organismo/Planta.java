@@ -39,4 +39,14 @@ public class Planta extends Organismo {
         System.out.println("La planta se esta marchitado");
         setSalud(salud-10);
     }
+    @Override
+    public String toString() {
+        return "\t\t"+"Nombre=" + nombre +"\n\t\t"
+                +"PosicionX=" + posicionX +"\n\t\t"
+                +"PosicionY=" + posicionY +"\n\t\t"
+                +"Salud=" + salud +"\n\t\t"
+                +"Edad=" + edad +"\n\t\t"
+                +"Estado Reproductivo=" + estadoReproductivo +"\n\t\t"
+                + "Es venenosa=" + esVenenosa+"\n" ;
+    }
 }
