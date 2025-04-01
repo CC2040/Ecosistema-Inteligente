@@ -27,7 +27,9 @@ public class Simulador {
     }
     @Override
     public String toString() {
-        return "\t"+"Ambiente:"+ "\n"+"\t"+ ambiente.toString() +"\n"+
-                "\t"+"Organismos:"+ "\n" + organismo.toString() ;
+        return "Simulador:\n" +
+                "Ambiente:\n\t" + ambiente +"\n"+
+                "Organismo:\n" + organismo ;
     }
+    
 }

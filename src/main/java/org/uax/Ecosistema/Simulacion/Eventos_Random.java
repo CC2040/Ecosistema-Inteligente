@@ -5,7 +5,6 @@ import java.util.Random;
 import org.uax.Ecosistema.Organismo.Animal;
 import org.uax.Ecosistema.Organismo.Planta;
 import org.uax.Ecosistema.Organismo.Organismo;
-import org.uax.Ecosistema.Simulacion.Crecimiento_poblacion;
 
 public class Eventos_Random {
     private Random random = new Random();

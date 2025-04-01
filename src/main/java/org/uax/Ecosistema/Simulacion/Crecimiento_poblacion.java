@@ -3,9 +3,6 @@ import org.uax.Ecosistema.Organismo.Animal;
 import org.uax.Ecosistema.Organismo.Planta;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Crecimiento_poblacion {
     private Animal animalNuevos;
     private Planta plantasNuevas;
